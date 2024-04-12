@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个性与情绪心理测评</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>个性与情绪心理测评</h1>
+        <p>欢迎来到个性与情绪心理测评！通过这个测评，您可以更好地了解自己的个性特质和情绪状态。请您在一个安静的环境中，根据第一反应回答以下问题。所有的回答都是保密的，请放心填写。</p>
+        <form action="/submit-your-test" method="post">
+            <label for="question1">您在社交场合中通常感觉如何？</label>
+            <select id="question1" name="socialComfort">
+                <option value="comfortable">舒适且自在</option>
+                <option value="manageable">稍有紧张但能应对</option>
+                <option value="uncomfortable">感到不自在或焦虑</option>
+            </select>
+            <button type="submit">提交答案</button>
+        </form>
+    </div>
+</body>
+</html>
